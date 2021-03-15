@@ -1,11 +1,11 @@
 BIN := build/app.js
 MAP := build/app.js.map
+SRC := $(shell find src/ -name "*.hx" | grep -v "\#") res/**
 
 .PHONY: all
 all: $(BIN)
 
-SRC := $(shell find src/ -name "*.hx" | grep -v "\#") res/**
-
+.PHONY: clean-res
 clean-res: $(shell find res/ -name "*~")
 	rm -f res/**~
 
