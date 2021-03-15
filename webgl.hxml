@@ -1,0 +1,7 @@
+-cp src
+-lib heaps:git:https://github.com/HeapsIO/heaps
+-lib ldtk-haxe-api
+-js build/app.js
+-main Main
+-D no-deprecation-warnings
+-debug
