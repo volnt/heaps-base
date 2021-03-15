@@ -9,7 +9,7 @@
 
 * Barebone framework with update / fixedUpdate method
 * Display a sample png on the screen
-* Github workflow to transpile the project to webgl and publish it on Github pages (the gh-pages branch must be created manually the very first time)
+* Github workflow to transpile the project to webgl and publish it on Github pages (the gh-pages branch must be created manually the very first time) (example: volent.fr/heaps-base/)
 
 # Makefile targets
 
